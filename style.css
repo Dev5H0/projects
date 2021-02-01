@@ -55,7 +55,7 @@ ul {
 #nav_li {
    display: inline;
    float: left;
-   border: outset 1px rgb(57, 67, 75);
+   !border: outset 1px rgb(57, 67, 75);
 }
 
 #nav_a {
