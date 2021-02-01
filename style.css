@@ -9,25 +9,65 @@ ul {
    list-style: none;
 }
 
-.pDiv {
+.test {
+   padding: 30px 30px 30px 30px;
+   margin: 0px 35px 0px 35px;
+}
+
+.projects {
+   margin: 0px 35px 0px 35px;
+   padding-left: 10px;
+   padding-right: 30px;
+   padding-bottom: 30px;
+   border: outset 5px rgb(57, 67, 75);
+}
+
+#project_div {
    padding-left: 10px;
    padding-bottom: 5px;
    line-height: 0px;
    border: ridge 2px rgb(90, 90, 90);
 }
 
-#pTitle {
+#project_title {
    font-size: xx-large;
    margin: 2px 2px 15px 2px;
 }
 
-#dlt {
+#download_title {
    text-decoration: solid;
    font-weight: 500;
 }
 
-#dl {
+#download {
    color: rgb(63, 114, 162);
+}
+
+#nav_ul {
+   list-style-type: none;
+   margin: 0px;
+   overflow: hidden;
+   padding: 5px 5px 5px 5px;
+   background-color: rgb(48, 56, 67);
+   !border: ridge 2px rgb(80, 82, 85);
+}
+
+#nav_li {
+   display: inline;
+   float: left;
+   border: outset 1px rgb(57, 67, 75);
+}
+
+#nav_a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+#nav_a:hover {
+   background-color: rgb(95, 96, 102);
 }
 
 #about {
@@ -39,46 +79,14 @@ ul {
    height: 1em;
 }
 
-#nUl {
-   list-style-type: none;
-   margin: 0px;
-   padding: 0px;
-   overflow: hidden;
-   background-color: rgb(48, 56, 67);
-}
-
-#nLi {
-   display: inline;
-   float: left;
-}
-
-#nA {
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-}
-
-#nA:hover {
-   background-color: rgb(95, 96, 102);
-}
-
-.projects {
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-bottom: 30px;
-   border: outset 5px rgb(57, 67, 75);
-}
-
 #aboutme {
-   border: outset rgb(57, 67, 75);
+   border: outset 5px rgb(57, 67, 75);
    padding: 30px 30px 30px 30px;
    margin: 0px 35px 0px 35px;
 }
 
 #tba {
-   border: outset rgb(57, 67, 75);
+   border: outset 5px rgb(57, 67, 75);
    padding: 30px 30px 30px 30px;
    margin: 0px 35px 0px 35px;
 }
