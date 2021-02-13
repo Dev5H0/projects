@@ -40,6 +40,7 @@ ul {
 #project_div {
    padding-left: 10px;
    padding-bottom: 5px;
+   margin-bottom: 10px;
    line-height: 10px;
    border: ridge 2px rgb(90, 90, 90);
 }
